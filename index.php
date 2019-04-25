@@ -1,2 +1,2 @@
 <?php
-require_once './dist/index.php';
+require_once './src/index.php';

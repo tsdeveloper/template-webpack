@@ -107,12 +107,12 @@ module.exports = merge(common, {
       // BrowserSync options
       {
         host: 'localhost',
-        port: 3000,
-        proxy: 'dashboard.portfolio.test/',
+        port: 3001,
+        proxy: 'http://web-design.test:3000/',
         browser: "default",
         notify: false,
       }, {
-        reload: false,
+        reload: true,
       },
     ),
   ],
