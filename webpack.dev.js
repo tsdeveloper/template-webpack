@@ -5,7 +5,6 @@ const WebpackNotifierPlugin = require('webpack-notifier');
 const WriteFilePlugin = require('write-file-webpack-plugin');
 const path = require('path');
 const Webpack = require('webpack');
-const InjectHtmlWebpackPlugin = require('inject-html-webpack-plugin');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
@@ -108,7 +107,7 @@ module.exports = merge(common, {
       {
         host: 'localhost',
         port: 3001,
-        proxy: 'http://web-design.test:3000/',
+        proxy: 'http://modern.web.test:8001/',
         browser: "default",
         notify: false,
       }, {
