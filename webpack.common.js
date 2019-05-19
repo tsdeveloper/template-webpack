@@ -285,7 +285,7 @@ module.exports = {
       template: './src/index.php',
       filename: './index.php', //relative to root of the application
       hash: true,
-      inject: true,
+
       chunks: ['app'],
       minify: {
         removeScriptTypeAttributes: true,
@@ -297,6 +297,8 @@ module.exports = {
         entry: 'dist/jquery.min.js',
         global: 'jQuery',
       }, ],
+       basedir: 'node_modules',
+        dest: 'lib',
     }),
     new HtmlWebpackExternalsPlugin({
       externals: [{

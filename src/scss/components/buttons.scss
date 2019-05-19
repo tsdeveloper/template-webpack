@@ -1,0 +1,21 @@
+/* --------------------------------- Buttons -------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #f4f4f4;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover, .btn-dark {
+  background: #333;
+  color:#fff;
+}
+
+.btn-dark:hover {
+  background: #fafafa;
+  color:#333;
+}

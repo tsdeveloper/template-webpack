@@ -7,7 +7,7 @@
 *:before {
     margin: 0;
     padding: 0;
-
+    
     @include border-box;
 
     }
@@ -119,7 +119,9 @@ section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.4;
+  overflow: hidden;
+  color: #fff;
 }
 
 ol,
