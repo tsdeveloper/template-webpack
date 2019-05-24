@@ -28,8 +28,15 @@ define('BASE', 'http://modern.web.test:8001');
 </head>
 
 <body>
+
+    <nav class="menu-bar">
+        <i class="fas fa-bars fa-2x"></i>
+    </nav>
+
     <!-- Page 1 -->
     <section id="page-1" class="page">
+
+
         <h1>Welcome To my Presentation</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora, dignissimos eius dolores impedit
             voluptas fugiat voluptatem ducimus. Eius obcaecati necessitatibus facere! Quisquam explicabo vero quis?
@@ -93,7 +100,7 @@ define('BASE', 'http://modern.web.test:8001');
         </div>
     </section>
 
-        <!-- start:js -->
+    <!-- start:js -->
 
     <!-- end:js -->
 
