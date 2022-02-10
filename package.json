@@ -21,7 +21,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "font-awesome": "^4.7.0",
     "import-glob-loader": "^1.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.27.1",
     "webpack-merge": "^4.1.4",
